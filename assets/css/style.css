@@ -13,9 +13,10 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    
 }
 
-header h1 {
+header h1 nav{
     display: inline-block;
     font-size: 48px;
 }
@@ -45,12 +46,12 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+ 
 p {
     font-size: 16px;
 }
 
-.mainPic {
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -110,7 +111,7 @@ aside img {
 
 
 
-section {
+section h2 {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -125,16 +126,10 @@ section img {
     max-height: 200px;
 }
 
-
-
-
 section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-
-
 
  footer {
     padding: 30px;
